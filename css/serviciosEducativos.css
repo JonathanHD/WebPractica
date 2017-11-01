@@ -1,0 +1,21 @@
+#contacto {
+    text-decoration: none;
+    color: #9AD2E7;
+    position: relative;
+    float: right;
+    margin:0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menuu{
+    background-color: #1C232B;
+}
+
+#logobarra{
+    height: 10px;
+    width: 10px;
+}
+#contenedor fila title{
+    text-align: justify;
+    text-decoration-color: darkblue;
+}

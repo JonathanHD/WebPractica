@@ -1,0 +1,14 @@
+#contenido ul{ list-style-type:none; width:100%; background-color:#069; top:0; margin:0; padding:0; overflow:hidden; }
+#contenido li{ float:left; }
+ul#menuu li a{ display:block; padding:14px 16px; color:WHITE; text-decoration:none; text-align:center; }
+li a:hover{ background-color:#0AF; }
+/* ***** */
+
+h1,h2,h3,h4{ color:#666; }
+p{ text-align:justify; }
+.imgResponsive{ width:100%; height:auto; max-width:100%; }
+.centrar{ text-align:center; }
+.pie{ background-color:#333; color:WHITE; padding-top:0.5em; }
+a:link{ text-decoration:none; color:skyblue; font-style:italic; }
+a:visited{ color:BLACK; }
+.azul{ color:#069; }

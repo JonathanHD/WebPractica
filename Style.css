@@ -1,0 +1,238 @@
+body {
+  background-color: #393939;
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+ font-family: Raleway;
+ font-style: bold;
+ font-weight: bold;
+ src: url(fontAwesome/Raleway/Raleway-Bold.ttf);
+}
+
+.subir  {
+  box-sizing:border-box; 
+  color: white;
+  background-color: gray;
+  border: 0;
+  font-size: 25px;
+  padding: .1em .3em .1em .3em;
+  margin: 0 5% 0 0;
+  position: fixed;
+  right: 1%;
+  bottom:  20%;
+} 
+.subir:hover {background: #393939;}
+
+.face{
+  box-sizing:border-box; 
+  color: white;
+  background-color: #848CC9;
+  border: 0;
+  font-size: 25px;
+  padding: .3em .5em .3em .5em;
+  margin: 0 5% 0 0;
+  position: fixed;
+  left: 1%;
+  bottom:  80%;
+}
+
+.face:hover{background-color: #1A2486}
+
+.menu {
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow-y: auto;
+  margin:0 auto;
+}
+
+.escudo h1 {color: #163172}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.col {
+  display: inline-block;
+  width: 45%;
+}
+
+.gob {
+  color: 8px;
+  background-color: #393939;
+}
+
+.gob a {	
+  color: #FFF;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.gob li:hover {
+  background: #202020;
+}
+
+.principal {
+  font-size: 14px; 
+  width: 100%;
+  background-color: #F6F6F6;
+  padding: 0px;
+  left: 0;
+}
+
+.principal a {
+  color: #163172;
+  text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.principal li:hover {
+  background: #D6E4F0;
+}
+
+
+
+#center {
+	text-align: center;
+}
+
+#titulo{
+  padding: 1.5% 0 2% 0;
+  width: 80%;
+  height: 56px;
+  margin: 0 auto;
+  }
+#subtitulo{
+  padding: 0 0 10% 0;
+  height: 56px;
+}    
+
+h2 {
+  color: #393939;
+  margin: 0 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h3  {
+  color:#99062A;
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  }
+
+#encabezado {
+    background-image: url("Imagenes/Escom4.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+
+    font-size: 3em; /* Si se aumenta aparece Scroll horizontal*/
+    font-family: 'Raleway', sans-serif;
+    color: #163172;
+    text-align: center;
+    padding: 1% 5% 5% 5%;
+  }
+
+h1 {
+  color: #163172;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+#contenido {
+  color: #163172;
+  text-align: center;
+  position:relative;
+  width:100%;
+  padding-top: 20px;
+}
+
+.conocenos {
+  background-color: #74A6CF;
+}
+
+.conocenos h1, .conocenos h2 {
+  color: #163172;
+}
+
+.escudo {
+  margin-bottom: 20px;
+  background-color: #F6F6F6;
+  padding: 0 20%;
+}
+
+
+
+
+.contenedor1{
+  width:80%;
+  margin:0 auto;
+  overflow: auto;
+ }
+                            
+.parteUbicacion  {background-color: #74A6CF}            
+#barraubicacion{
+ overflow: auto;
+ width: 80%;
+ margin: 0 auto;
+}
+                            
+#parrafoubicacion{
+  color: #393939;
+  margin: 2% 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+ }
+.tituloubicacion     {
+  color:#99062A;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+ 
+
+
+@media only screen and (min-width: 1048px) {
+	.col-l-3 {
+		width: 30%;
+		margin:15px 20px;
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 1048px) {
+	.col-l-3 {
+		width: 80%;
+		margin:16px 20px;
+		display: inline-block;
+	}
+}
+
+.pieDePagina    {
+  background-color: #202020;
+	margin-top: 10px ;
+} 
+
+h5  {
+  color: grey;
+  margin: 2% 0;
+  font-weight: bold;
+}
